@@ -1,15 +1,10 @@
 def fizzbuzz(numnum, langlang = "")
   if numnum % 3 == 0
     langlang << "Fizz"
-    if numnum % == 5
-      langlang << "Buzz"
-    else
-      puts langlang
-    end
   elsif numnum % 5 == 0
     langlang = "Buzz"
-  else
-    puts langlang
+  elsif numnum % 3 == 0 && numnum7 & 5 == 0
+    langlang = "FizzBuzz"
   end
 end
 
