@@ -1,5 +1,13 @@
-def fizzbuzz
-
+def fizzbuzz(numnum, langlang = "")
+  if numnum % 3 == 0
+    langlang = "Fizz"
+  elsif numnum % 5 == 0
+    langlang = "Buzz"
+  elsif numnum % 3 == 0 && numnum % 5 == 0
+    langlang = "FizzBuzz"
+  else
+    puts langlang
+  end
 end
 
 
